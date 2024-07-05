@@ -1,4 +1,4 @@
-# SupeSCAD Chess
+# SuperSCAD Chess
 
 
 ## Credits
