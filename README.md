@@ -36,3 +36,6 @@ which was forked from [OpenSCAD Chess](https://www.thingiverse.com/thing:585218)
 * https://www.thingiverse.com/thing:3381939
 * https://www.thingiverse.com/thing:585218
 
+# License
+
+This project is licensed under the terms of the [MIT license](../Chess/LICENSE).
