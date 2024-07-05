@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Super-SCAD-Chess"
-version = "0.1.0"
+version = "0.0.0"
 description = ""
 authors = ["P.R. Water <p.r.water@setbased.nl>"]
 license = "MIT"
@@ -27,3 +27,9 @@ super-scad = "^0.1.0"
 [build-system]
 requires = ["poetry-core"]
 build-common = "poetry.core.masonry.api"
+
+[tool.setuptools.packages.find]
+where = ["super_scad_chess/include"]
+
+[tool.setuptools.package-data]
+mypkg = ["*"]

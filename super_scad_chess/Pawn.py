@@ -19,7 +19,7 @@ class Pawn(ScadObject):
 
         :param context: The build context.
         """
-        path = context.resolve_path('../profiles/pawn_profile.svg')
+        path = context.resolve_path('include/pawn_profile.svg')
 
         extrude = RotateExtrude(convexity=10,
                                 fn=64,

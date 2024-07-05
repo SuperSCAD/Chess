@@ -21,7 +21,7 @@ class Bishop(ScadObject):
 
         :param context: The build context.
         """
-        path = context.resolve_path('../profiles/bishop_profile.dxf')
+        path = context.resolve_path('include/bishop_profile.dxf')
 
         body = Difference(children=[RotateExtrude(convexity=10,
                                                   fn=64,

@@ -20,8 +20,8 @@ class Queen(ScadObject):
 
         :param context: The build context.
         """
-        path1 = context.resolve_path('../profiles/queen_profile.svg')
-        path2 = context.resolve_path('../queen_crown2.stl')
+        path1 = context.resolve_path('include/queen_profile.svg')
+        path2 = context.resolve_path('include/queen_crown2.stl')
 
         body = RotateExtrude(convexity=10,
                              fn=64,

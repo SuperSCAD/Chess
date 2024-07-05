@@ -21,8 +21,8 @@ class Knight(ScadObject):
 
         :param context: The build context.
         """
-        path1 = context.resolve_path('../profiles/knight_profile.svg')
-        path2 = context.resolve_path('../horse3.stl')
+        path1 = context.resolve_path('include/knight_profile.svg')
+        path2 = context.resolve_path('include/horse3.stl')
 
         body = RotateExtrude(convexity=10,
                              fn=64,

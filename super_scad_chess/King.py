@@ -22,8 +22,8 @@ class King(ScadObject):
 
         :param context: The build context.
         """
-        path1 = context.resolve_path('../profiles/king_profile.svg')
-        path2 = context.resolve_path('../profiles/cross_profile.svg')
+        path1 = context.resolve_path('include/king_profile.svg')
+        path2 = context.resolve_path('include/cross_profile.svg')
 
         body = Scale3D(factor=0.25,
                        child=RotateExtrude(convexity=10,

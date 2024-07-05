@@ -25,7 +25,7 @@ class Rook(ScadObject):
 
         :param context: The build context.
         """
-        path = context.resolve_path('../profiles/rook_profile.svg')
+        path = context.resolve_path('include/rook_profile.svg')
 
         extrude = RotateExtrude(convexity=10,
                                 fn=64,
