@@ -1,5 +1,24 @@
 # SuperSCAD Chess
 
+<table>
+<thead>
+<tr>
+<th>Legal</th>
+<th>Release</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://pypi.org/project/Super-SCAD-Chess/" target="_blank"><img alt="PyPI - License" src="https://img.shields.io/pypi/l/Super-SCAD-Chess">
+</a>
+</td>
+<td>
+<a href="https://badge.fury.io/py/Super-SCAD-Chess" target="_blank"><img src="https://badge.fury.io/py/Super-SCAD-Chess.svg" alt="Latest Stable Version"/></a><br/>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Credits
 
@@ -12,7 +31,8 @@ which was forked from [OpenSCAD Chess](https://www.thingiverse.com/thing:585218)
 * https://github.com/SuperSCAD
 * https://openscad.org/
 
-* https://github.com/quaternionmedia/scad-chess 
+* https://github.com/quaternionmedia/scad-chess
 * https://www.quaternion.media/scad-chess
 * https://www.thingiverse.com/thing:3381939
 * https://www.thingiverse.com/thing:585218
+
