@@ -1,3 +1,4 @@
+from super_scad.scad.Context import Context
 from super_scad.scad.Scad import Scad
 from super_scad.scad.Unit import Unit
 
@@ -21,7 +22,7 @@ class ChessSetTest(ScadTestCase):
         Test bishop.
         """
         path_actual, path_expected = self.paths()
-        scad = Scad(unit_length_final=Unit.MM)
+        scad = Scad(context=Context())
         bishop = Bishop()
         scad.run_super_scad(bishop, path_actual)
         actual = path_actual.read_text()
@@ -34,7 +35,7 @@ class ChessSetTest(ScadTestCase):
         Test king.
         """
         path_actual, path_expected = self.paths()
-        scad = Scad(unit_length_final=Unit.MM)
+        scad = Scad(context=Context())
         king = King()
         scad.run_super_scad(king, path_actual)
         actual = path_actual.read_text()
@@ -47,7 +48,7 @@ class ChessSetTest(ScadTestCase):
         Test knight.
         """
         path_actual, path_expected = self.paths()
-        scad = Scad(unit_length_final=Unit.MM)
+        scad = Scad(context=Context())
         knight = Knight()
         scad.run_super_scad(knight, path_actual)
         actual = path_actual.read_text()
@@ -60,7 +61,7 @@ class ChessSetTest(ScadTestCase):
         Test pawn.
         """
         path_actual, path_expected = self.paths()
-        scad = Scad(unit_length_final=Unit.MM)
+        scad = Scad(context=Context())
         pawn = Pawn()
         scad.run_super_scad(pawn, path_actual)
         actual = path_actual.read_text()
@@ -73,7 +74,7 @@ class ChessSetTest(ScadTestCase):
         Test queen.
         """
         path_actual, path_expected = self.paths()
-        scad = Scad(unit_length_final=Unit.MM)
+        scad = Scad(context=Context())
         queen = Queen()
         scad.run_super_scad(queen, path_actual)
         actual = path_actual.read_text()
@@ -86,7 +87,7 @@ class ChessSetTest(ScadTestCase):
         Test rook.
         """
         path_actual, path_expected = self.paths()
-        scad = Scad(unit_length_final=Unit.MM)
+        scad = Scad(context=Context())
         rook = Rook()
         scad.run_super_scad(rook, path_actual)
         actual = path_actual.read_text()

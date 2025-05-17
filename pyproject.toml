@@ -6,6 +6,7 @@ authors = ["P.R. Water <p.r.water@setbased.nl>"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/SuperSCAD/Chess"
+documentation = "https://www.superscad.org/"
 keywords = ["OpenSCAD", "SuperSCAD", "Chess"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -21,13 +22,11 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.10.0"
-super-scad = "^0.7.1"
+python = "^3.13.0"
+super-scad = "^0.11.2"
 
 [tool.poetry.group.dev.dependencies]
-coverage = "^7.5.4"
-sphinx = "^7.3.7"
-sphinx-rtd-theme = "^2.0.0"
+coverage = "^7.8.0"
 
 [build-system]
 requires = ["poetry-core"]

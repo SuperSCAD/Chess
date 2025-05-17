@@ -10,7 +10,7 @@ from super_scad.transformation.Rotate3D import Rotate3D
 from super_scad.transformation.Scale2D import Scale2D
 from super_scad.transformation.Scale3D import Scale3D
 from super_scad.transformation.Translate3D import Translate3D
-from super_scad.type.Point2 import Point2
+from super_scad.type.Vector2 import Vector2
 
 
 class Rook(ScadWidget):
@@ -32,7 +32,7 @@ class Rook(ScadWidget):
                                 child=Scale2D(factor=0.25,
                                               child=Import(path=path)))
 
-        points = [Point2(0.0, 0.0), Point2(60.0, 50.0), Point2(50.0, 60.0)]
+        points = [Vector2(0.0, 0.0), Vector2(60.0, 50.0), Vector2(50.0, 60.0)]
         cutout = LinearExtrude(height=40.0, child=Polygon(points=points))
         children = []
         for i in range(0, 360, 90):

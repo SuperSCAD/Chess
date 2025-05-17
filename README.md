@@ -32,6 +32,7 @@ which was forked from [OpenSCAD Chess](https://www.thingiverse.com/thing:585218)
 
 # Links
 
+* https://www.superscad.org/
 * https://github.com/SuperSCAD
 * https://openscad.org/
 
